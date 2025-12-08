@@ -13,4 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--font-family-main), Arial;
+  font-size: var(--font-size-main);
+  font-weight: var(--font-weight-norma);
 }
