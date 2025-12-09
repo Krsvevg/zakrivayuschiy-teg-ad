@@ -15,5 +15,34 @@
   min-block-size: 100dvb;
   font-family: var(--font-family-main), Arial;
   font-size: var(--font-size-main);
-  font-weight: var(--font-weight-norma);
+  font-variation-settings: "wght" var(--font-weight-normal);
+}
+
+.section {
+  inline-size: min(100%, 700px);
+  margin-inline: max(0px, calc((100% - 700px) / 2));
+}
+
+.header {
+  
+  margin-block: 100px;
+  padding-block: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: 2px #000 solid;
+}
+
+.header-title {
+  font-family: var(--font-family-accent);
+  font-size: var(--title-font-size);
+}
+
+.header-description {
+  font-family: var(--font-family-accent);
+  font-size: var(--title-description-size);
+  text-transform: uppercase;
 }
