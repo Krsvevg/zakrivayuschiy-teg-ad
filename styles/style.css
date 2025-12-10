@@ -248,7 +248,7 @@
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
-  .article__img-label {
+  .image-container::before {
     text-shadow: none;
     -webkit-text-stroke: 1px #fff;
     text-stroke: 1px #fff;
