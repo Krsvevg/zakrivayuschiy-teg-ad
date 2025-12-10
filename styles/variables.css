@@ -5,6 +5,43 @@
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --font-size-main: 18px;
+  --font-size-button: 14px;
   --title-font-size: 65px;
   --title-description-size: 23px;
+  --image-label-size: 14px;
+  --modal-font-size: 14px;
+  --background-color: #fff;
+  --background-image: 
+    repeating-linear-gradient(
+      to right, 
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ), 
+    repeating-linear-gradient(
+      to bottom, 
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #1a1a1a
+    );
+  --dialog-padding-inline: 30px;
+  --button-text-color: #fff;
+  --button-bg-color: #fff;
+  --button-hover-color: #000;
+  --button-border-color: #000;
+}
+
+@media (width <= 375px) {
+  :root {
+    --title-font-size: 49px;
+    --title-description-size: 14px;
+    --dialog-padding-inline: 42px;
+  }
 }
